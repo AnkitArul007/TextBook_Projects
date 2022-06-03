@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Variables Assignment 4</title>
+</head>
+<body>
+    <!-- CHALLENGE 3 -->
+
+    <div id="main1">
+        <h1 id="heading">Redeclaring a variable using <span id="col">let</span></h1>
+        <p id="info"></p>
+        <script type="text/javascript">
+            document.getElementById("col").style.color = "violet"
+            document.getElementById("main1").style.border = "2px solid blue";
+            document.getElementById("main1").style.padding = "40px";
+            document.getElementById("heading").style.color = 'green';
+            document.getElementById("info").style.color = "Yellow";
+            document.getElementById("info").style.fontSize = "25px";
+            document.getElementById("info").style.fontWeight = "600";
+            //declaring a variable x
+            var x = "Hello";
+            {
+                //redeclaring the variable x
+                var x = "Hello JS";
+            }
+            //printing the value of x
+            document.getElementById("info").innerHTML = x;
+        </script>
+    </div>
+
+
+    <!-- CHALLENGE 4 -->
+    
+    <div id="main2">
+        <p id="para1"></p>
+        <p id="para2"></p>
+        <p id="para3"></p>
+        <script type="text/javascript">
+            //Declaring an ARRAY
+            var smartphones_brand = ['iPhone', ' Samsung', ' OnePlus'];
+            document.getElementById("para1").innerHTML = smartphones_brand;
+
+            //Changing the array at index number [0]-
+            smartphones_brand[1] = '  Motorola';
+            document.getElementById("para2").innerHTML = smartphones_brand;
+
+            //adding new brand names to the existing array-
+            smartphones_brand.push(' RedMi', ' Samsung')
+            document.getElementById("para3").innerHTML = smartphones_brand;
+
+            //designing the div-main2
+
+            document.getElementById("main2").style.border = "2px solid violet";
+            document.getElementById("main2").style.marginTop = "40px";
+            document.getElementById("main2").style.paddingLeft = "40px";
+            document.getElementById("para1").style.color = "Green";
+            document.getElementById("para2").style.color = "Red";
+            document.getElementById("para3").style.color = "Blue";
+            document.body.style.backgroundColor = "black";
+
+        </script>
+    </div>
+</body>
+</html>

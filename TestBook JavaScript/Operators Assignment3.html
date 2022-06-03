@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Operators Assignment</title>
+</head>
+<body>
+    <!-- 1st part of assignment -->
+    <div id="main">
+        <h1 id="heading">Arithmetic Operator</h1>
+        <h1 id="Sub_heading">Number Of weeks in a Year</h1>
+        <p id="java"></p>
+    </div>
+    <script type="text/javascript">
+        var days = 365;
+        var week_days = 7;
+        var week = days / week_days;
+        var rem_day = days % week_days;
+        document.body.style.backgroundColor = "darkgrey";
+        document.getElementById("main").style.border = "2px dotted green";
+        document.getElementById("main").style.textAlign = "center";
+        document.getElementById("main").style.margin = "40px 350px";
+        document.getElementById("heading").style.color = "purple";
+        document.getElementById("java").style.color = "white";
+        document.getElementById("Sub_heading").style.color = "cyan ";
+        document.getElementById("java").innerHTML = week + " " + "week and" + " " + rem_day + " " + "is there in a year";
+    </script>
+
+    <!-- 2nd part of assignment -->
+    <div id="main2">
+        <h2 id="str_head">String Concatenation Operator</h2>
+        <p id="concatenation"></p>
+    </div>
+    <script type="text/javascript">
+        document.getElementById("main2").style.border = "2px solid green";
+        document.getElementById("str_head").style.color = "red";
+        document.getElementById("main2").style.marginBottom = '20px'
+        document.body.style.textAlign = "center";
+        var string1 = "Hello Students";
+        var string2 = "Good Morning";
+        var sumup = string1 + " " + string2;
+        document.write(sumup);
+        
+    </script>
+</body>
+</html>
