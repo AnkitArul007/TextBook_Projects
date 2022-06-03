@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex, grid and combinators</title>
+    <link rel="stylesheet" href="Assignment5.css">
+</head>
+<body>
+    <h1>Image Palace</h1>
+    <div class="gridview">
+        <div>
+            <img src="https://images.unsplash.com/photo-1654081072509-98f85bfb9754?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDJ8NnNNVmpUTFNrZVF8fGVufDB8fHx8&auto=format&fit=crop&w=700&q=60" alt="flower">
+        </div>
+        <div class="wide">
+            <img src="https://images.unsplash.com/photo-1654080222625-f085f8b8867d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDN8NnNNVmpUTFNrZVF8fGVufDB8fHx8&auto=format&fit=crop&w=700&q=60" alt="image">
+        </div>
+        <div class="tall">
+            <img src="https://images.unsplash.com/photo-1608644139016-4b938587ff67?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDF8NnNNVmpUTFNrZVF8fGVufDB8fHx8&auto=format&fit=crop&w=700&q=60" alt="moon">
+        </div>
+        <div class="big">
+            <img src="https://images.unsplash.com/photo-1653915484550-522ca541003e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDZ8NnNNVmpUTFNrZVF8fGVufDB8fHx8&auto=format&fit=crop&w=700&q=60" alt="flower">
+        </div>
+        <div class="tall">
+            <img src="https://images.unsplash.com/photo-1654080258151-9272f9666fb2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDR8NnNNVmpUTFNrZVF8fGVufDB8fHx8&auto=format&fit=crop&w=700&q=60" alt="flower">
+        </div>
+        <div>
+            <img src="https://images.unsplash.com/photo-1653972677660-71217674c326?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDEwfDZzTVZqVExTa2VRfHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=700&q=60" alt="mountains">
+        </div>
+        <div>
+            <img src="https://images.unsplash.com/photo-1653573081595-ce04e1e7d6f5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDh8NnNNVmpUTFNrZVF8fGVufDB8fHx8&auto=format&fit=crop&w=700&q=60" alt="trees">
+        </div>
+        <div class="big">
+            <img src="https://images.unsplash.com/photo-1653958531645-fef7d3b83fc8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDEzfDZzTVZqVExTa2VRfHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=700&q=60" alt="scenery">
+        </div>
+        <div class="wide">
+            <img src="https://images.unsplash.com/photo-1653942154398-e38352d10342?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDEyfDZzTVZqVExTa2VRfHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=700&q=60" alt="flower">
+        </div>
+        <div>
+            <img src="https://images.unsplash.com/photo-1653730575805-102364d42167?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDIxfDZzTVZqVExTa2VRfHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=700&q=60" alt="peacock">
+        </div>
+        <div class="tall">
+            <img src="https://images.unsplash.com/photo-1653896170250-2bbaade50d23?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDE5fDZzTVZqVExTa2VRfHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=700&q=60" alt="frog">
+        </div>
+        <div>
+            <img src="https://images.unsplash.com/photo-1653896006675-a6827a231b79?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDIwfDZzTVZqVExTa2VRfHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=700&q=60" alt="fruit">
+        </div>
+        <div>
+            <img src="https://images.unsplash.com/photo-1653854867200-e99ed1df764d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDI0fDZzTVZqVExTa2VRfHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=700&q=60" alt="animal">
+        </div>
+        <div class="wide">
+            <img src="https://images.unsplash.com/photo-1653675734461-17e6ebafaf95?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDM0fDZzTVZqVExTa2VRfHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=700&q=60" alt="berry">
+        </div>
+        <div>
+            <img src="https://images.unsplash.com/photo-1653549781754-ebd520148309?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDMyfDZzTVZqVExTa2VRfHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=700&q=60" alt="bee">
+
+        </div>
+        <div class="big">
+            <img src="https://images.unsplash.com/photo-1653919695038-1a60a285a465?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDM3fDZzTVZqVExTa2VRfHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=700&q=60" alt="lion">
+        </div>
+        <div>
+            <img src="https://images.unsplash.com/photo-1651303812970-f977adbb5650?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDQwfDZzTVZqVExTa2VRfHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=700&q=60" alt="scenery">
+        </div>
+        <div>
+            <img src="https://images.unsplash.com/photo-1651310970184-bf5ae5c79a20?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDM5fDZzTVZqVExTa2VRfHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=700&q=60" alt="horse">
+        </div>
+        <div class="tall">
+            <img src="https://images.unsplash.com/photo-1653781509531-c0f1cd64c223?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDQzfDZzTVZqVExTa2VRfHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=700&q=60" alt="bear">
+        </div>
+        <div>
+            <img src="https://images.unsplash.com/photo-1620675388046-9284ccbbe12e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDU2fDZzTVZqVExTa2VRfHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=700&q=60" alt="rain">
+        </div>
+    </div>
+</body>
+</html>

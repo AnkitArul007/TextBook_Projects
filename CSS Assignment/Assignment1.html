@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 10 Forms</title>
+    <link rel="stylesheet" href="Assignment1.css">
+    <style>
+        .input{
+            border-radius: 4px;
+            width: 200px;
+            height: 25px;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <forms>
+
+            <label class="label" for="Name">Name</label><br>
+            <input class="input" type="text" placeholder="Enter Your Name" required>
+            <br><br>
+            <label class="label" for="email">Email</label><br>
+            <input class="input" type="text" placeholder="test@gmail.com" required>
+            <br><br>
+            <label class="label" for="Roll Number">Roll Number</label><br>
+            <input class="input" type="number" placeholder="Roll" required>
+            <br><br>
+            <label class="label" for="rating">How do you rate our courses?</label><br>
+            <select>
+                <option value="hidden" selected value hidden>Choose your Rating</option>
+                <option value="Poor">Poor</option>
+                <option value="Average">Average</option>
+                <option value="Good">Good</option>
+                <option value="Excellent">Excellent</option>
+            </select>
+            <br><br>
+            <label class="label" for="topic">Your Favourite Html Topic</label><br>
+            <input type="checkbox">Structural Elements
+            <br>
+            <input type="checkbox">Links and List
+            <br>
+            <input type="checkbox">HTML Media
+            <br>
+            <input type="checkbox">Grouping Elements
+            <br>
+            <input type="checkbox">Forms
+            <br><br>
+            <label class="label" for="Course">Do you like the HTML course?</label><br>
+            <input type="radio" name="Choice">Yes
+            <input type="radio" name="Choice">No
+            <br><br>
+            <label class="label" for="Description">Few Words About Yourself?</label><br>
+            <textarea rows="5" cols="40" placeholder="Describe Yourself"></textarea>
+            <br><br>
+            <button style="width: 200px; color: blue; background-color: rgba(240, 255, 255, 0.349);  height: 25px;">Submit</button>
+
+        </forms>
+
+    </div>
+</body>
+</html>

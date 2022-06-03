@@ -1,0 +1,58 @@
+*{
+    background: fixed;
+    background: rgba(218, 217, 217, 0.921);
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    
+    
+}
+
+h1{
+    text-align: center;
+    margin: 50px;
+    color: blue;
+}
+
+.logcred{
+    width: 450px;
+    margin: 150px auto;
+    /* margin-top: 150px; */
+    border: 2px solid green;
+    padding: 30px;
+    background: rgb(84, 84, 211);
+    border-radius: 10px;
+    
+}
+
+form{
+    background: inherit;
+}
+
+.label{
+    font-size: 20px;
+    color: greenyellow;
+    font-weight: 600;
+    background: inherit;
+}
+
+.but{
+    margin-bottom: 20px;
+    width: 300px;
+    height: 25px;
+    border-radius: 5px;
+    font-weight: 600;
+    color: azure;
+}
+
+.but:hover{
+    background-color: rgba(145, 145, 183, 0.462);
+    border: none;
+}
+
+.input{
+    margin-bottom: 20px;
+    width: 250px;
+    height: 25px;
+    background: white;
+}

@@ -1,0 +1,45 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+html,
+body{
+    background: linear-gradient(45deg, #190f2c, #200b30);
+    text-align: center;
+    
+}
+
+.main > .profile img{
+    height: 450px;
+    width: 500px;
+}
+
+.info{
+    margin-top: 35px;
+    color: whitesmoke;
+}
+
+.info h1{
+    font-size: 50px;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+}
+
+.info h2{
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+}
+
+footer{
+    padding: 15px;
+    color: azure;
+    font-size: xx-large;
+    font-weight: 800;
+    background: black;
+    margin-bottom: 0px;
+    height: 70px;
+    
+}

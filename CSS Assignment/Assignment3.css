@@ -1,0 +1,67 @@
+*{
+    background: rgba(169, 169, 169, 0.43);
+    background-blend-mode: luminosity;
+    color: darkblue;
+    box-sizing: content-box;
+}
+
+h1{
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+}
+
+.showpiece{
+    display: flex;
+    justify-content: space-around;
+    border: ;
+    
+}
+
+.slide1{
+    border: 0px solid black;
+    border-radius: 5px;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 2px 2px lightslategrey;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+.slide2{
+    border: 0px solid black;
+    border-radius: 5px;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 2px 2px lightslategrey;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+.dummy{
+    width: 350px;
+    height: 350px;
+
+}
+
+.dummy:hover{
+    cursor: pointer;
+    scale: 1.05;
+    background: rgba(144, 144, 144, 0.43);
+}
+
+button{
+    width: 150px;
+    height: 35px;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+}
+
+button:hover{
+    cursor: pointer;
+    scale: 1.05;
+    background: rgba(144, 144, 144, 0.43);
+}
