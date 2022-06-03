@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 8 Forms</title>
+</head>
+<body>
+    <div style="border: 3px solid purple; text-align: left; padding-left: 20px; background-color: beige; box-shadow: 10px; box-sizing: inherit; padding-bottom: 25px; padding-top: 50px;">
+    <h2><span style="border: 2px solid red; text-align: center; font-weight: 200; background-color: aqua;">Fill The Form</span></h2>
+    <form>
+        <label for="Username">Enter your Username :</label>
+        <input type="text" placeholder="e.g: Ankit Arul" required>
+        <br><br>
+        <label for="Email id">Enter Your Email ID :</label>
+        <input type="email" required placeholder="abc@ymail.com" required>
+        <br><br>
+        <label for="Contact Number">Enter Your Contact Number</label>
+        <input type="number" required>
+        <br><br>
+        <label for="age">Enter Your DOB :</label>
+        <input type="date" max="2001-01-01" required>
+        <br><br>
+        <label for="gender"> Select your Gender :</label>
+        <input type="radio" name="gender" required> Male
+        <input type="radio" name="gender" required> Female
+        <input type="radio" name="gender" required> Others
+        <br><br>
+        <label for="Qualification"> Select Your Qualification :</label>
+        <input type="checkbox"> 10th
+        <input type="checkbox"> 12th
+        <input type="checkbox"> Under Graduate
+        <input type="checkbox"> Post Graduate
+        <br><br>
+        <label for="city"> Enter City To Work :</label>
+        <select required>
+            <option value="Delhi">Delhi</option>
+            <option value="Mumbai">Mumbai</option>
+            <option value="Chennai">Chennai</option>
+            <option value="Bangalore">Bangalore</option>
+        </select>
+        <br><br>
+        <label for="description"> Describe Yourself :</label><br>
+        <textarea rows="10" cols="50" placeholder="Write Something About Yourself"></textarea>
+        <br><br>
+        <label for="Username"> Choose a Username :</label>
+        <input type="text"  maxlength="15" placeholder="e.g:Ankitstar" required>
+        <br><br>
+        <label for="password"> Enter a Password :</label>
+        <input type="password" maxlength="20" required>
+        <br><br>
+        <label for="User Experience"> Rate Your Experience With Us :</label>
+        <input type="radio" name="rating"> 1 star
+        <input type="radio" name="rating"> 2 star
+        <input type="radio" name="rating"> 3 star
+        <input type="radio" name="rating"> 4 star
+        <input type="radio" name="rating"> 5 star
+        <br><br>
+        <input type="submit" value="Submit The Form">
+    </form>
+    </div>
+</body>
+</html>

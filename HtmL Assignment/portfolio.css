@@ -1,0 +1,57 @@
+*{
+    margin: 0.5em;
+    padding: 0.1em;
+    background-color: black;
+}
+.self_info{
+    width: 100px;
+    height: 30px;
+    border-radius: 7px;
+    color: blue;
+    background-color: orangered;
+}
+h1{
+    color: beige;
+}
+h3{
+    color: chartreuse;
+}
+ol{
+    color: azure;
+}
+
+.main_cont{
+    border: 2px solid black;
+    margin: 20px 100px;
+    padding: 20px;
+    text-align: justify;
+    
+}
+.img{
+    margin: 10px;
+    border: 2px solid grey;
+}
+.container{
+    border: 2px solid black;
+    margin: 20px 100px;
+    padding: 20px;
+    text-align: justify;
+}
+.container> h1{
+    color: blueviolet;
+}
+.table_cont{
+    border: 2px solid black;
+    margin: 20px 100px;
+    padding: 20px;
+    text-align: justify;
+}
+.contact{
+    border: 2px solid black;
+    margin: 20px 100px;
+    padding: 20px;
+    text-align: justify;
+}
+.label{
+    color: chocolate;
+}
